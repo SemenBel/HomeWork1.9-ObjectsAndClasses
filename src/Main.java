@@ -5,11 +5,9 @@ public class Main {
         Book learningJava = new Book("Learning Java", kathySierra, 2022);
         Book grokAlgorithms = new Book("Grok Algorithms", adityaBhargava, 2017);
 
-        System.out.println("Книга: " + learningJava.getTitle() + ", Автор: " + learningJava.getAuthor().getName() + " " + learningJava.getAuthor().getSurname() + ", Год публикации: " + learningJava.getPublicationYear());
-        System.out.println("Книга: " + grokAlgorithms.getTitle() + ", Автор: " + grokAlgorithms.getAuthor().getName() + " " + grokAlgorithms.getAuthor().getSurname() + ", Год публикации: " + grokAlgorithms.getPublicationYear());
+        System.out.println(learningJava);
+        System.out.println(grokAlgorithms);
         grokAlgorithms.setPublicationYear(2021);
-        System.out.println("Книга: " + grokAlgorithms.getTitle() + ", Автор: " + grokAlgorithms.getAuthor().getName() + " " + grokAlgorithms.getAuthor().getSurname() + ", Год публикации: " + grokAlgorithms.getPublicationYear());
-
+        System.out.println(grokAlgorithms);
     }
-
 }
